@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 
 export const metadata = {
   title: '타고가',
-  description: '캠퍼스 모빌리티 서비스스',
+  description: '캠퍼스 모빌리티 서비스',
 }
 
 export default function RootLayout({
