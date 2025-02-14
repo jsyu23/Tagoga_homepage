@@ -9,9 +9,9 @@ interface cardDataType {
 }
 
 const cardData: cardDataType[] = [
-    { imgSrc: "/assets/clientsay/use_first.svg", heading: "위치찾기" },
-    { imgSrc: "/assets/clientsay/use_second.svg", heading: "스캔하기" },
-    { imgSrc: "/assets/clientsay/use_third.svg", heading: "즐기면끝" },
+    { imgSrc: "/assets/clientsay/use_first.png", heading: "위치찾기" },
+    { imgSrc: "/assets/clientsay/use_second.png", heading: "스캔하기" },
+    { imgSrc: "/assets/clientsay/use_third.png", heading: "즐기면끝" },
 ];
 
 const sliderSettings = {

@@ -33,7 +33,7 @@ const Contact = () => {
                     <div className='grid grid-cols-1 px-4 py-6 sm:grid-cols-2 gap-x-8 gap-y-10 sm:px-12 py-16 rounded-3xl'>
                         {Aboutdata.map((item, i) => (
                             <div key={i}>
-                                <div className='bg-bluebg rounded-3xl px-12 py-16 shadow-xl flex flex-col justify-between h-full'>
+                                <div className='bg-bluebg rounded-3xl px-7 py-10 shadow-xl flex flex-col justify-between sm:px-12 py-16 h-full'>
                                     <div>
                                         <h4 className="text-xl font-semibold break-words whitespace-pre-line">
                                             {item.service}
