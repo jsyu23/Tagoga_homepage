@@ -30,33 +30,33 @@ const Contact = () => {
         <div id="contact">
             <div className='mx-auto max-w-7xl px-4 my-10 sm:py-20 lg:px-8'>
                 <div className='grid grid-cols-1 lg:grid-cols-1 gap-8'>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-10 px-10 py-12 rounded-3xl'>
+                    <div className='grid grid-cols-1 px-4 py-6 sm:grid-cols-2 gap-x-8 gap-y-10 sm:px-12 py-16 rounded-3xl'>
                         {Aboutdata.map((item, i) => (
                             <div key={i}>
                                 <div className='bg-bluebg rounded-3xl px-12 py-16 shadow-xl flex flex-col justify-between h-full'>
-                                <div>
-                                    <h4 className="text-xl font-semibold break-words whitespace-pre-line">
-                                        {item.service}
-                                    </h4>
-                                </div>
-                                <div className="flex gap-2 mt-6">
-                                    <h4 className="text-base font-normal min-h-[56px] break-words whitespace-pre-line">
-                                        {item.ment}
-                                    </h4>
-                                </div>
-                            
-                                <div>
-                                    <div className="flex gap-2 mt-4">
-                                        <Image src={'/assets/footer/email.svg'} alt="email-icon" width={24} height={24} />
-                                        <h5 className="text-base font-normal text-black">{item.mail}</h5>
+                                    <div>
+                                        <h4 className="text-xl font-semibold break-words whitespace-pre-line">
+                                            {item.service}
+                                        </h4>
                                     </div>
-                                    <div className="flex gap-2 mt-4">
-                                        <Image src={'/assets/footer/telephone.svg'} alt="telephone-icon" width={24} height={24} />
-                                        <h5 className="text-base font-normal text-black">{item.telephone}</h5>
+                                    <div className="flex gap-2 mt-6">
+                                        <h4 className="text-base font-normal min-h-[56px] break-words whitespace-pre-line">
+                                            {item.ment}
+                                        </h4>
+                                    </div>
+                                
+                                    <div>
+                                        <div className="flex gap-2 mt-4">
+                                            <Image src={'/assets/footer/email.svg'} alt="email-icon" width={24} height={24} />
+                                            <h5 className="text-base font-normal text-black">{item.mail}</h5>
+                                        </div>
+                                        <div className="flex gap-2 mt-4">
+                                            <Image src={'/assets/footer/telephone.svg'} alt="telephone-icon" width={24} height={24} />
+                                            <h5 className="text-base font-normal text-black">{item.telephone}</h5>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                         ))}
                     </div>
                 </div>

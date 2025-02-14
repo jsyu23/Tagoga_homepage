@@ -36,7 +36,7 @@ const Buyers = () => {
                         <h3 className="text-2xl font-semibold leading-8 text-tagoga">
                             타고가가 추구하는
                         </h3>
-                        <h2 className="text-4xl font-semibold text-navyblue sm:text-2xl lg:text-4xl md:text-4xl lh-54">
+                        <h2 className="text-3xl font-semibold text-navyblue sm:text-3xl lg:text-4xl md:text-4xl lh-54">
                             캠퍼스 모빌리티 서비스 
                         </h2>
                     </div>
