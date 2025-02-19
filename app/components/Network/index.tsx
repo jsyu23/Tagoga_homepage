@@ -17,12 +17,12 @@ const Aboutdata: datatype[] = [
 
     },
     {
-        country: "한국과학기술원",
+        country: "충남대학교",
         paragraph: 'Since 2023.07',
 
     },
     {
-        country: "충남대학교",
+        country: "한국과학기술원",
         paragraph: 'Since 2023.07',
 
     },
