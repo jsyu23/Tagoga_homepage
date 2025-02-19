@@ -12,7 +12,7 @@ const Aboutdata: datatype[] = [
 
     },
     {
-        country: "대구가톨릭대학교",
+        country: "대구대학교",
         paragraph: 'Since 2021.05',
 
     },

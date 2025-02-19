@@ -22,16 +22,10 @@ const data: Data[] = [
         imgSrc: "/assets/carousel/suresoft.png"
     },
     {
-        imgSrc: "/assets/carousel/google.svg"
+        imgSrc: "/assets/carousel/naver.png"
     },
     {
-        imgSrc: "/assets/carousel/aws.png"
-    },
-    {
-        imgSrc: "/assets/carousel/nice_payments.png"
-    },
-    {
-        imgSrc: "/assets/carousel/suresoft.png"
+        imgSrc: "/assets/carousel/db.png"
     }
 ]
 

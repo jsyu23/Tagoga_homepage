@@ -15,7 +15,7 @@ const cardData: cardDataType[] = [
     {
         imgSrc: '/assets/buyers/advan_second.svg',
         heading: "3 FREE",
-        subheading: "타고가는 잠금해제, 보험료, 할증료가 없습니다. \n 부가적인 요금없이 이용시간에 따른 비용만으로 \n 라이더님들의 부담을 줄이도록 노력하겠습니다.",
+        subheading: "잠금해제비, 보험부담금, 할증료가 없습니다. \n 부가적인 요금없이 이용시간에 따른 비용만으로 \n 라이더님들의 부담을 줄이도록 노력하겠습니다.",
     },
     {
         imgSrc: '/assets/buyers/advan_third.svg',

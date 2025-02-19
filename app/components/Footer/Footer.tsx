@@ -22,7 +22,7 @@ const footer = () => {
 
                     {/* COLUMN-1 */}
                     <div className='col-span-4 md:col-span-12 lg:col-span-4'>
-                        <img src={'/assets/footer/logo.svg'} alt="logo" className='pb-8' />
+                        <img src={'/assets/logo/logo.png'} alt="logo" className='pb-8 w-40' />
                         <div className='flex gap-4'>
                             <Link href="https://instagram.com" className='footer-icons'>
                                 <Image src={'/assets/footer/instagram.svg'} alt="instagram" width={20} height={20} />
@@ -57,7 +57,7 @@ const footer = () => {
                         </div>
                         <div className="flex gap-2 mt-10">
                             <Image src={'/assets/footer/email.svg'} alt="email-icon" width={24} height={24} />
-                            <h5 className="text-base font-normal text-black">tagoga_b2b@dgood.co.kr</h5>
+                            <h5 className="text-base font-normal text-black">tagoga@dgood.co.kr</h5>
                         </div>
                     </div>
 
