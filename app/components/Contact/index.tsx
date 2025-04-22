@@ -13,14 +13,14 @@ const Aboutdata: datatype[] = [
         service: "고객센터",
         ment: "운영시간 평일 09:00 ~18:00 \n 타고가 어플내 신고하기 운영 중 ",
         mail: 'tagoga_cs@dgood.co.kr',
-        telephone: '1811-0681',
+        telephone: '1811-6081',
 
     },
     {
         service: "광고 및 사업제휴",
         ment: "경상북도 경산시 압량읍 대학로70길 8",
         mail: 'tagoga_b2b@dgood.co.kr',
-        telephone: '1811-0681',
+        telephone: '1811-6081',
     }
 ]
 
